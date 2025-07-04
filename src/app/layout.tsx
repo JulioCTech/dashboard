@@ -30,8 +30,10 @@ export default function RootLayout({
         className={cn("min-h-screen bg-background font-sans antialiased", `${geistSans.variable} ${geistMono.variable} `)}
       >
         <MenuLateral />
+        <div className="sm:ml-14">
+          {children}
+        </div>
 
-        {children}
       </body>
     </html>
   );

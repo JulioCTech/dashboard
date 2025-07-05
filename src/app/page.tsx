@@ -1,6 +1,7 @@
 
 import { GraficoGeral } from "@/components/grafico/grafico";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Login } from "@/components/usuarios";
 import { ConciergeBell, DollarSign, PercentCircleIcon, TagIcon, Users2Icon } from "lucide-react";
 
 export default function Home() {
@@ -110,8 +111,11 @@ export default function Home() {
 
             <section className="mt-4 flex flex-col md:flex-row gap-4">
                 <GraficoGeral />
+                <Login />
             </section>
 
+
+
         </main>
-    )
+    );
 }

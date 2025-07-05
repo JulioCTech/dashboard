@@ -1,5 +1,4 @@
 'use client'
-
 import { BadgeDollarSignIcon } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card"
 import { ChartContainer } from "../ui/chart"
@@ -33,7 +32,7 @@ export function GraficoGeral() {
             <CardHeader>
                 <div className="flex items justify-center">
                     <CardTitle className="text-lg sm:text-xl text-black">
-                        Visão geral das vendas
+                        Visão Geral
                     </CardTitle>
                     <BadgeDollarSignIcon className="ml-auto w-6 h-6" />
                 </div>
@@ -52,8 +51,8 @@ export function GraficoGeral() {
                             axisLine={false}
                             tickFormatter={(value) => value.slice(0, 3)}
                         />
-                        <Bar dataKey="desktop" fill="var(--color-desktop)" radius={4} />
-                        <Bar dataKey="mobile" fill="var(--color-mobile)" radius={4} />
+                        <Bar dataKey="desktop" fill="#4CAF50" radius={4} /> {/* Verde médio */}
+                        <Bar dataKey="mobile" fill="#81C784" radius={4} />  {/* Verde claro */}
 
                     </BarChart>
 

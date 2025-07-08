@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dashboard Template (Next.js + Tailwind + shadcn/ui)
 
-## Getting Started
+Este é um **template de dashboard** construído com [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/) e [shadcn/ui](https://ui.shadcn.dev/).  
+O projeto **não possui integrações com banco de dados ou APIs** — é apenas uma base visual para projetos futuros.
 
-First, run the development server:
+## ✨ Tecnologias utilizadas
+
+- [Next.js 15](https://nextjs.org/)
+- [React 19](https://react.dev/)
+- [Tailwind CSS 4](https://tailwindcss.com/)
+- [TypeScript 5](https://www.typescriptlang.org/)
+- [shadcn/ui](https://ui.shadcn.dev/)
+- [Lucide Icons](https://lucide.dev/)
+- [Recharts](https://recharts.org/) (gráficos)
+- [Radix UI](https://www.radix-ui.com/) (base para shadcn/ui)
+
+## 📦 Instalação
+
+```bash
+# Clonar o projeto
+git clone https://github.com/JulioCTech/dashboard.git
+
+# Acessar a pasta
+cd dashboard-template
+
+# Instalar as dependências
+npm install
+# ou
+yarn install
+```
+
+## 🚀 Rodar em modo desenvolvimento
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧪 Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este projeto é apenas um **template visual** com algumas seções comuns em dashboards, como:
 
-## Learn More
+- Layout com barra lateral
+- Cartões informativos
+- Gráficos com Recharts
+- Componentes prontos com shadcn/ui
 
-To learn more about Next.js, take a look at the following resources:
+> Nenhuma ação de back-end, autenticação ou integração com banco de dados foi implementada.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Scripts disponíveis
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `npm run dev`: inicia o servidor de desenvolvimento
+- `npm run build`: cria a versão de produção
+- `npm run start`: inicia o servidor Next.js de produção
+- `npm run lint`: executa o linter
 
-## Deploy on Vercel
+## 📄 Licença
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este projeto está sob a licença MIT.  
+Sinta-se à vontade para usar como base nos seus próprios projetos!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
